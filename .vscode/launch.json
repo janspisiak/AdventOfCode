@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'aoc18'",
+            "name": "Debug executable 'aoc23'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=aoc18",
-                    "--package=aoc18"
+                    "--bin=aoc23",
+                    "--package=aoc23"
                 ],
                 "filter": {
-                    "name": "aoc18",
+                    "name": "aoc23",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'aoc18'",
+            "name": "Debug unit tests in executable 'aoc23'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=aoc18",
-                    "--package=aoc18"
+                    "--bin=aoc23",
+                    "--package=aoc23"
                 ],
                 "filter": {
-                    "name": "aoc18",
+                    "name": "aoc23",
                     "kind": "bin"
                 }
             },
