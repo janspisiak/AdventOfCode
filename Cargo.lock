@@ -99,6 +99,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "aoc24"
+version = "0.1.0"
+dependencies = [
+ "bitvec",
+ "euclid",
+ "itertools",
+]
+
+[[package]]
 name = "aoc4"
 version = "0.1.0"
 dependencies = [
