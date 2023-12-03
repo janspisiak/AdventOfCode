@@ -25,4 +25,5 @@ members = [
     "aoc2019/aoc24",
 
     "aoc2023/aoc01",
+    "aoc2023/aoc02",
 ]
