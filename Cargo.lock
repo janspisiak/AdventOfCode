@@ -11,6 +11,13 @@ name = "aoc02"
 version = "0.1.0"
 
 [[package]]
+name = "aoc03"
+version = "0.1.0"
+dependencies = [
+ "js_math",
+]
+
+[[package]]
 name = "aoc10"
 version = "0.1.0"
 dependencies = [
@@ -197,6 +204,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57"
 dependencies = [
  "either",
+]
+
+[[package]]
+name = "js_math"
+version = "0.1.0"
+dependencies = [
+ "num 0.4.1",
 ]
 
 [[package]]
