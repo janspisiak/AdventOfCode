@@ -30,4 +30,5 @@ members = [
     "aoc2023/aoc02",
     "aoc2023/aoc03",
     "aoc2023/aoc04",
+    "aoc2023/aoc05",
 ]
