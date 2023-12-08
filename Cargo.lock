@@ -26,6 +26,10 @@ name = "aoc05"
 version = "0.1.0"
 
 [[package]]
+name = "aoc06"
+version = "0.1.0"
+
+[[package]]
 name = "aoc10"
 version = "0.1.0"
 dependencies = [
