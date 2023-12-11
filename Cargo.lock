@@ -3,49 +3,7 @@
 version = 3
 
 [[package]]
-name = "aoc01"
-version = "0.1.0"
-
-[[package]]
-name = "aoc02"
-version = "0.1.0"
-
-[[package]]
-name = "aoc03"
-version = "0.1.0"
-dependencies = [
- "js_math",
-]
-
-[[package]]
-name = "aoc04"
-version = "0.1.0"
-
-[[package]]
-name = "aoc05"
-version = "0.1.0"
-
-[[package]]
-name = "aoc06"
-version = "0.1.0"
-
-[[package]]
-name = "aoc07"
-version = "0.1.0"
-
-[[package]]
-name = "aoc08"
-version = "0.1.0"
-dependencies = [
- "num-integer",
-]
-
-[[package]]
-name = "aoc09"
-version = "0.1.0"
-
-[[package]]
-name = "aoc10"
+name = "aoc19_day10"
 version = "0.1.0"
 dependencies = [
  "itertools",
@@ -53,11 +11,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "aoc11"
+name = "aoc19_day11"
 version = "0.1.0"
 
 [[package]]
-name = "aoc12"
+name = "aoc19_day12"
 version = "0.1.0"
 dependencies = [
  "euclid",
@@ -66,7 +24,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "aoc13"
+name = "aoc19_day13"
 version = "0.1.0"
 dependencies = [
  "euclid",
@@ -74,23 +32,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "aoc14"
+name = "aoc19_day14"
 version = "0.1.0"
 
 [[package]]
-name = "aoc15"
-version = "0.1.0"
-dependencies = [
- "euclid",
- "itertools",
-]
-
-[[package]]
-name = "aoc16"
-version = "0.1.0"
-
-[[package]]
-name = "aoc17"
+name = "aoc19_day15"
 version = "0.1.0"
 dependencies = [
  "euclid",
@@ -98,7 +44,19 @@ dependencies = [
 ]
 
 [[package]]
-name = "aoc18"
+name = "aoc19_day16"
+version = "0.1.0"
+
+[[package]]
+name = "aoc19_day17"
+version = "0.1.0"
+dependencies = [
+ "euclid",
+ "itertools",
+]
+
+[[package]]
+name = "aoc19_day18"
 version = "0.1.0"
 dependencies = [
  "bitvec",
@@ -107,7 +65,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "aoc19"
+name = "aoc19_day19"
 version = "0.1.0"
 dependencies = [
  "euclid",
@@ -115,7 +73,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "aoc20"
+name = "aoc19_day20"
 version = "0.1.0"
 dependencies = [
  "euclid",
@@ -123,25 +81,25 @@ dependencies = [
 ]
 
 [[package]]
-name = "aoc21"
+name = "aoc19_day21"
 version = "0.1.0"
 
 [[package]]
-name = "aoc22"
+name = "aoc19_day22"
 version = "0.1.0"
 dependencies = [
  "num 0.2.1",
 ]
 
 [[package]]
-name = "aoc23"
+name = "aoc19_day23"
 version = "0.1.0"
 dependencies = [
  "itertools",
 ]
 
 [[package]]
-name = "aoc24"
+name = "aoc19_day24"
 version = "0.1.0"
 dependencies = [
  "bitvec",
@@ -150,40 +108,86 @@ dependencies = [
 ]
 
 [[package]]
-name = "aoc4"
+name = "aoc19_day4"
 version = "0.1.0"
 dependencies = [
  "itertools",
 ]
 
 [[package]]
-name = "aoc5"
+name = "aoc19_day5"
 version = "0.1.0"
 
 [[package]]
-name = "aoc6"
+name = "aoc19_day6"
 version = "0.1.0"
 
 [[package]]
-name = "aoc7"
+name = "aoc19_day7"
 version = "0.1.0"
 dependencies = [
  "itertools",
 ]
 
 [[package]]
-name = "aoc8"
+name = "aoc19_day8"
 version = "0.1.0"
 dependencies = [
  "itertools",
 ]
 
 [[package]]
-name = "aoc9"
+name = "aoc19_day9"
 version = "0.1.0"
 dependencies = [
  "itertools",
 ]
+
+[[package]]
+name = "aoc23_day01"
+version = "0.1.0"
+
+[[package]]
+name = "aoc23_day02"
+version = "0.1.0"
+
+[[package]]
+name = "aoc23_day03"
+version = "0.1.0"
+dependencies = [
+ "js_math",
+]
+
+[[package]]
+name = "aoc23_day04"
+version = "0.1.0"
+
+[[package]]
+name = "aoc23_day05"
+version = "0.1.0"
+
+[[package]]
+name = "aoc23_day06"
+version = "0.1.0"
+
+[[package]]
+name = "aoc23_day07"
+version = "0.1.0"
+
+[[package]]
+name = "aoc23_day08"
+version = "0.1.0"
+dependencies = [
+ "num-integer",
+]
+
+[[package]]
+name = "aoc23_day09"
+version = "0.1.0"
+
+[[package]]
+name = "aoc23_day10"
+version = "0.1.0"
 
 [[package]]
 name = "autocfg"
