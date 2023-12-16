@@ -5,8 +5,8 @@ use num::{Zero, ToPrimitive};
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct Vec2<T>
 {
-    x: T,
-    y: T,
+    pub x: T,
+    pub y: T,
 }
 
 impl<T> Vec2<T>
@@ -54,12 +54,24 @@ impl<T> Vec2<T>
     pub fn le(&self, rhs: Vec2<T>) -> bool {
         self.x <= rhs.x && self.y <= rhs.y
     }
+    pub fn lt_any(&self, rhs: Vec2<T>) -> bool {
+        self.x < rhs.x || self.y < rhs.y
+    }
+    pub fn le_any(&self, rhs: Vec2<T>) -> bool {
+        self.x <= rhs.x || self.y <= rhs.y
+    }
 
     pub fn gt(&self, rhs: Vec2<T>) -> bool {
         self.x > rhs.x && self.y > rhs.y
     }
     pub fn ge(&self, rhs: Vec2<T>) -> bool {
         self.x >= rhs.x && self.y >= rhs.y
+    }
+    pub fn gt_any(&self, rhs: Vec2<T>) -> bool {
+        self.x > rhs.x || self.y > rhs.y
+    }
+    pub fn ge_any(&self, rhs: Vec2<T>) -> bool {
+        self.x >= rhs.x || self.y >= rhs.y
     }
 }
 
@@ -93,7 +105,7 @@ impl<T> ops::Mul<T> for Vec2<T>
     }
 }
 
-pub fn make_vec2<T> (x: T, y: T) -> Vec2<T>
+pub const fn make_vec2<T> (x: T, y: T) -> Vec2<T>
     where T: ToPrimitive + Copy
 {
     return Vec2 { x, y };

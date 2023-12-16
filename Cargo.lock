@@ -188,6 +188,9 @@ version = "0.1.0"
 [[package]]
 name = "aoc23_day10"
 version = "0.1.0"
+dependencies = [
+ "js_math",
+]
 
 [[package]]
 name = "autocfg"

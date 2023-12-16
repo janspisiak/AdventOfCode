@@ -87,7 +87,7 @@ fn part_two(s: &str) -> u64 {
 }
 
 fn main() {
-    let input_str = fs::read_to_string("aoc2023/aoc02/input.txt")
+    let input_str = fs::read_to_string(concat!(env!("CARGO_MANIFEST_DIR"), "/input.txt")
         .expect("Something went wrong reading the file");
 
     println!("part_one {}", part_one(&input_str, RGB::new(12, 13, 14)));

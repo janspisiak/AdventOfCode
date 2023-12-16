@@ -162,7 +162,7 @@ fn part_two(s: &str) -> i64 {
 }
 
 fn main() {
-    let input_str = fs::read_to_string("aoc2023/aoc05/input.txt")
+    let input_str = fs::read_to_string(concat!(env!("CARGO_MANIFEST_DIR"), "/input.txt")
         .expect("Something went wrong reading the file");
 
     println!("part_one {}", part_one(&input_str));
